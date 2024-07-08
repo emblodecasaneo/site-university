@@ -1,233 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0px;
-}
-
-p{
- font-size: 13px;   
- font-weight: 400;
-}
-
 *{
-    margin: 0px;
-}
-
-
-nav {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    align-items: center;
-    width: 100vw;
-    justify-content: space-between;
-    padding: 0.2vw 8vw;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
-}
-
-nav img {
-    width: 150px;
-    cursor: pointer;
-}
-
-nav .navigation ul {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-    align-items: center;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav .navigation ul li {
-    margin: 0 15px;
+body{
+    font-family: 'Poppins' , sans-serif;
 }
-
-nav .navigation {
+#header{
     display: flex;
-    justify-content: center;
-    text-decoration: none;
     align-items: center;
-    width: 60%;
+    justify-content: space-between;
+    padding:20px 70px ;
+    background: rgb(252, 250, 250);
+    box-shadow:0 5px 20px rgb(75, 74, 74) ;
+    z-index: 500;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
-/* Media Query for responsive navbar */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        padding: 0.5vw 5vw;
-    }
-
-    nav .navigation {
-        width: 100%;
-    }
-
-    nav .navigation ul {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-
-    
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
 }
 
-nav .navigation ul li {
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
     list-style: none;
-    margin-left: 30px;
+    padding: 0 20px;
+    position: relative;
 }
 
-nav .navigation ul li a {
+#navbar  li a{
     text-decoration: none;
-    color: rgb(21, 21, 100);
     font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s ease;
+    font-weight: 600;
+    color: rgb(21,21,100);
+    transition:0.3s ease ;
+
+}
+#navbar li a:hover{
+    color: #f9cf67;
 }
 
-nav .navigation ul li a:hover{
-    color: #fdc93b;
+img{
+    border-radius: 5px;
 }
 
 #home{
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("../assets/back.jpeg");
+    background:  rgba(2,9,43,0.7)url('../assets/images/back\ \(1\).jpeg');
     width: 100%;
+    font-size: 20px;
     height: 100vh;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
+    background-blend-mode: darken;
     text-align: center;
-    align-items: center;
     justify-content: center;
+    align-content: center;
+    align-items: center;
 }
-
-#home h2{
-    color: white;
-    font-size: 2.2rem;
-    letter-spacing: 1px; 
-}
-
 #home p{
-    width: 50%;
     color: white;
-    font-size: 0.9rem;
-    line-height: 25px; 
+    font-size: 1.2rem;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
 }
 
+.RIIS{
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
 
-#home .btn{
-    margin-top: 30px;
+}
+#home h1{
+color: white;
 }
 
-#home a{
+ .blue{
+
     text-decoration: none;
-    font-size: 0.9;
-    padding: 13px 35px;
-    background-color: white;
-    font-weight: 600;
+    color: white;
+    height: 33px;
+    background: blue;
+    padding: 10px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
+
+ }   
+
+.blue:hover{
+ background-color:white;
+ color: blue;   
 }
-
-#home a.blue{
-   color: white ;
-   background-color: rgb(21, 21, 100);
+.yellow{
+    text-decoration: none;
+    color: white;
+    height: 33px;
+    background: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
 }
-
-#home a.blue:hover{
-    color: rgb(21, 21, 100) ;
-   background-color:white;
+.yellow:hover{
+    background-color: rgb(255, 255, 255);
+    color: #f9cf67;
 }
-
-
-#home a.yellow{
-    color: white ;
-    background-color: #fdc93b;
- }
- 
- #home a.yellow:hover{
-     color: #fdc93b;
-    background-color: white;
- }
-
- 
- #features{
-    padding: 5vw 8vw 0 8vw;
-    text-align: center;
- }
-
- #features .fea-base{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap:1rem ;  
- }
-
- #features .fea-box{
-    background-color: #f9f9ff;
-    text-align: start;
+#page{
+   text-align: center;
+   margin: 30px 0px;
+}
+.run{
+    width: 250px;
+    margin: 10px 5px;
+    transform: translate(-50%);
+    background-size: 1px;
     padding: 30px;
-    margin: 10px;
+    background-color: rgb(246, 240, 246);
+    border-radius: 3px;
+    display:inline-block;
 }
-
-#features .fea-box i{
-    font-size: 2.3rem;
-    color: rgb(44, 44, 80);
+.run h1{
+    font-size: 22px;
     font-weight: 500;
+    color: rgb(90,48,90);
+    margin-left: -15px;
+    margin-top: 3px;
 }
-
-#features h3{
-    font-size: 1.3rem;
-    color: rgb(44, 44, 80);
-    font-weight: 500;
-}
-
-
-.iconbox{
-    width: 2.3rem;
-    height: 2.3rem;
-}
-
-.str{
-    width: 1rem;
-    height: 1rem;
-}
-
-#course{
-    padding: 8vw 8vw 0 8vw;
-    text-align: center;
-}
-
-#course .course-box{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap:1rem ;  
-}
-
-#course .courses{
-    text-align: start;
-    background-color: #f9f9ff;
-    height: 100%;
-
-}
-
-#course .courses img{
-    width: 100%;
-    height: 60%;
-    background-size: cover;
-    background-position: center;
-}
-
-.box-name
-{
-   font-size: 3rem;
-   font-weight: 700;
-   color: #fdc93b;
-   
+.run img{
     
+    width: 40px;
+    height: 40px;
+    margin-left: -200px;
+}
+.run p{
+    text-align: left;
+}
+.ran{
+    width: 250px;
+    margin: 10px 5px;
+    transform: translate(-50%);
+    background-size: 1px;
+    padding: 30px;
+    background-color: rgb(246, 240, 246);
+    border-radius: 3px;
+    display:inline-block;
+}
+.ran h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(90,48,90);
+    margin-left: -15px;
+    margin-top: 3px;
+}
+.ran img{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: -200px;
+}
+.ran p{
+    text-align: left;
 }
