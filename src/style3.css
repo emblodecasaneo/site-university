@@ -16,7 +16,7 @@
     justify-content: space-between;
     padding: .5vw 8vw;
     background: rgb(252, 250, 250);
-    box-shadow: 0 5px 20PX rgb(69, 68, 68);
+    box-shadow: 0 5px 20PX rgb(86, 86, 86);
     z-index: 500;
     
 }
@@ -127,7 +127,7 @@ span{
   transform: translateX(-50%);
   background-size: 1px;
   padding: 30px;
-  background-color: rgb(246, 240, 246);
+  background-color:  rgb(251, 244, 255);
   border-radius: 3px;
   display: inline-block;
 }
@@ -155,7 +155,7 @@ span{
     transform: translateX(-50%);
     background-size: 1px;
     padding: 30px;
-    background-color: rgb(246, 240, 246);
+    background-color:  rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
 }
@@ -183,7 +183,7 @@ span{
     transform: translateX(-50%);
     background-size: 1px;
     padding: 30px;
-    background-color: rgb(246, 240, 246);
+    background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
 }
@@ -203,5 +203,181 @@ span{
     text-align: left;
 }
 /*fin de la section home*/
+
+/*section 2*/
+
+#home2{
+    text-align: center;
+    margin: 30px 0px;
+}
+.carte1{
+    width: 250px;
+    margin: 10PX 5px ;
+    transform: translateX(-50%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte1 img{
+    width: 240px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte1 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte1 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+ 
+.carte2{
+    width: 250px;
+    margin: 8px 50px ;
+    transform: translateX(-50%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte2 img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte2 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte2 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.carte3{
+    width: 250px;
+    margin-right: -320px ;
+    transform: translateX(-50%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte3 img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte3 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte3 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* fin de la section 2*/
+
+/*la section 3*/
+
+.carte4{
+    width: 250px;
+    transform: translateX(45%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte4 img{
+    width: 240px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte4 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte4 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.carte5{
+    width: 250px;
+    margin:  50px ;
+    transform: translateX(167%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte5 img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte5 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte5 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.carte6{
+    width: 250px;
+    transform: translateX(-70%);
+    background-size: 1px;
+    padding: 20px;
+    background-color: rgb(251, 244, 255);
+    border-radius: 3px;
+    display: inline-block;
+}
+.carte6 img{
+    width: 250px;
+    height: 150px;
+    margin-bottom: -0px;
+}
+.carte6 h3{
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.carte6 p{
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+}
 
 
