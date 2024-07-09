@@ -108,7 +108,7 @@ color: white;
     text-decoration: none;
     color: white;
     height: 33px;
-    background: yellow;
+    background: #f9cf67 ;
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
@@ -126,7 +126,8 @@ color: white;
     margin: 10px 5px;
     transform: translate(-50%);
     background-size: 1px;
-    padding: 30px;
+    margin-top: 50px;
+    padding: 3ch;
     background-color: rgb(246, 240, 246);
     border-radius: 3px;
     display:inline-block;
@@ -147,9 +148,12 @@ color: white;
 .run p{
     text-align: left;
 }
+
+
+
 .ran{
     width: 250px;
-    margin: 10px 5px;
+    margin: 8px 50px;
     transform: translate(-50%);
     background-size: 1px;
     padding: 30px;
@@ -171,5 +175,31 @@ color: white;
     margin-left: -200px;
 }
 .ran p{
+    text-align: left;
+}
+.rin{
+    width: 250px;
+    margin-right: -250px;
+    transform: translate(-50%);
+    background-size: 1px;
+    padding: 30px;
+    background-color: rgb(246, 240, 246);
+    border-radius: 3px;
+    display:inline-block;
+}
+.rin h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(90,48,90);
+    margin-left: -15px;
+    margin-top: 3px;
+}
+.rin img{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: -200px;
+}
+.rin p{
     text-align: left;
 }
