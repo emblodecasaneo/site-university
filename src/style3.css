@@ -190,7 +190,7 @@ span{
 .page3 img{
     width: 35px;
     height: 35px;
-   
+    margin-left: -200px;
 }
 .page3 h2{
     font-size: 22px;
@@ -211,16 +211,18 @@ span{
     margin: 5px 0px;
 }
 .carte1{
-    width: 260px;
-    transform: translateX(63%);
+    width: 250px;
+    margin: 10px 5px;
+    transform: translateX(48%);
     background-size: 1px;
-    background-color: rgb(251, 244, 255);
+    padding: 0px;
+    background-color:  rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
     box-shadow: 0 5px 20px rgb(165, 163, 163);
 }
 .carte1 img{
-    width: 260px;
+    width: 250px;
     height: 150px;
 }
 .carte1 h3{
@@ -238,10 +240,11 @@ span{
  
 .carte2{
     width: 250px;
-    margin: 50px ;
-    transform: translateX(80%);
+    margin:  50px;
+    transform: translateX(73%);
     background-size: 1px;
-    background-color: rgb(251, 244, 255);
+    padding: 0px;
+    background-color:  rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
     box-shadow: 0 5px 20px rgb(165, 163, 163);
@@ -265,8 +268,10 @@ span{
 
 .carte3{
     width: 250px;
-    transform: translateX(92%);
+    margin-right: -320px;
+    transform: translateX(245px);
     background-size: 1px;
+    padding: 0px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
@@ -298,7 +303,7 @@ span{
 
 .carte4{
     width: 250px;
-    transform: translateX(67%);
+    transform: translateX(50%);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
@@ -308,17 +313,6 @@ span{
 .carte4 img{
     width: 250px;
     height: 150px;
-}
-#prix{
-    float: left;
-    transform: translateX(350%);
-    z-index: 500;
-    background-color: rgb(30, 30, 126);
-    color: #e0e0de;
-    border-radius: 50px;
-    border: 10px;
-    height: 50px;
-    width: 50px;
 }
 .carte4 h3{
     align-items: center;
@@ -336,7 +330,7 @@ span{
 .carte5{
     width: 250px;
     margin-top: -100px;
-    transform: translateX(105%);
+    transform: translateX(97%);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
@@ -363,7 +357,7 @@ span{
 
 .carte6{
     width: 250px;
-    transform: translateX(137%);
+    transform: translateX(143%);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
