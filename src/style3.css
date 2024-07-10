@@ -112,7 +112,7 @@ span{
 /*fin de la banniere*/
 
 
-/*section1 home*/
+/*section awesome features*/
 
 #home{
     text-align: center;
@@ -190,7 +190,7 @@ span{
 .page3 img{
     width: 35px;
     height: 35px;
-    margin-left: -200px;
+   
 }
 .page3 h2{
     font-size: 22px;
@@ -204,26 +204,24 @@ span{
 }
 /*fin de la section home*/
 
-/*section 2*/
+/*section case*/
 
-#home2{
+.home3{
     text-align: center;
-    margin: 30px 0px;
+    margin: 5px 0px;
 }
 .carte1{
-    width: 250px;
-    margin: 10PX 5px ;
-    transform: translateX(-50%);
+    width: 260px;
+    transform: translateX(63%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(165, 163, 163);
 }
 .carte1 img{
-    width: 240px;
+    width: 260px;
     height: 150px;
-    margin-bottom: -0px;
 }
 .carte1 h3{
     align-items: center;
@@ -240,18 +238,17 @@ span{
  
 .carte2{
     width: 250px;
-    margin: 8px 50px ;
-    transform: translateX(-50%);
+    margin: 50px ;
+    transform: translateX(80%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(165, 163, 163);
 }
 .carte2 img{
     width: 250px;
     height: 150px;
-    margin-bottom: -0px;
 }
 .carte2 h3{
     align-items: center;
@@ -268,18 +265,16 @@ span{
 
 .carte3{
     width: 250px;
-    margin-right: -320px ;
-    transform: translateX(-50%);
+    transform: translateX(92%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(165, 163, 163);
 }
 .carte3 img{
     width: 250px;
     height: 150px;
-    margin-bottom: -0px;
 }
 .carte3 h3{
     align-items: center;
@@ -288,29 +283,42 @@ span{
     margin-top: 4px;
 }
 .carte3 p{
-    align-items: center;
     text-align: left;
     font-weight: 500;
     font-size: 15px;
 }
+.star1 i{
+    font-size: 12px;
+    color: rgb(243,181,25);
+}
 
-/* fin de la section 2*/
+/* fin de la  section case*/
 
 /*la section 3*/
 
 .carte4{
     width: 250px;
-    transform: translateX(45%);
+    transform: translateX(67%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(165, 163, 163);
 }
 .carte4 img{
-    width: 240px;
+    width: 250px;
     height: 150px;
-    margin-bottom: -0px;
+}
+#prix{
+    float: left;
+    transform: translateX(350%);
+    z-index: 500;
+    background-color: rgb(30, 30, 126);
+    color: #e0e0de;
+    border-radius: 50px;
+    border: 10px;
+    height: 50px;
+    width: 50px;
 }
 .carte4 h3{
     align-items: center;
@@ -327,18 +335,18 @@ span{
 
 .carte5{
     width: 250px;
-    margin:  50px ;
-    transform: translateX(167%);
+    margin-top: -100px;
+    transform: translateX(105%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(165, 163, 163);
+   
 }
 .carte5 img{
     width: 250px;
     height: 150px;
-    margin-bottom: -0px;
 }
 .carte5 h3{
     align-items: center;
@@ -355,17 +363,16 @@ span{
 
 .carte6{
     width: 250px;
-    transform: translateX(-70%);
+    transform: translateX(137%);
     background-size: 1px;
-    padding: 20px;
     background-color: rgb(251, 244, 255);
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 0 5px 20px rgb(166, 162, 162);
 }
 .carte6 img{
     width: 250px;
-    height: 150px;
-    margin-bottom: -0px;
+    height: 150px;   
 }
 .carte6 h3{
     align-items: center;
@@ -378,6 +385,10 @@ span{
     text-align: left;
     font-weight: 500;
     font-size: 15px;
+}
+.star i{
+    font-size: 12px;
+    color: rgb(243,181,25);
 }
 
 
