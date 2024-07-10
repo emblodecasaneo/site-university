@@ -1,63 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Poppins' , sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
 }
-#header{
+
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:20px 70px ;
+    padding: 20px 70px;
     background: rgb(252, 250, 250);
-    box-shadow:0 5px 20px rgb(75, 74, 74) ;
+    box-shadow: 0 5px 20px rgb(75, 74, 74);
     z-index: 500;
     position: sticky;
     top: 0;
     left: 0;
 }
 
-.logo{
+.logo {
     width: 80px;
     height: 80px;
     cursor: pointer;
 }
 
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-#navbar li{
+
+#navbar li {
     list-style: none;
     padding: 0 20px;
     position: relative;
 }
 
-#navbar  li a{
+#navbar li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: rgb(21,21,100);
-    transition:0.3s ease ;
+    color: rgb(21, 21, 100);
+    transition: 0.3s ease;
 
 }
-#navbar li a:hover{
+
+#navbar li a:hover {
     color: #f9cf67;
 }
 
-img{
+img {
     border-radius: 5px;
 }
 
-#home{
-    background:  rgba(2,9,43,0.7)url('../assets/images/back\ \(1\).jpeg');
+#home {
+    background: rgba(2, 9, 43, 0.7)url('../assets/images/back\ \(1\).jpeg');
     width: 100%;
     font-size: 20px;
     height: 100vh;
@@ -69,7 +72,8 @@ img{
     align-content: center;
     align-items: center;
 }
-#home p{
+
+#home p {
     color: white;
     font-size: 1.2rem;
     margin: auto;
@@ -78,17 +82,18 @@ img{
 
 }
 
-.RIIS{
+.RIIS {
     color: yellow;
     font-weight: bold;
     font-size: 30px;
 
 }
-#home h1{
-color: white;
+
+#home h1 {
+    color: white;
 }
 
- .blue{
+.blue {
 
     text-decoration: none;
     color: white;
@@ -98,108 +103,232 @@ color: white;
     border-radius: 5px;
     margin: 20px;
 
- }   
-
-.blue:hover{
- background-color:white;
- color: blue;   
 }
-.yellow{
+
+.blue:hover {
+    background-color: white;
+    color: blue;
+}
+
+.yellow {
     text-decoration: none;
     color: white;
     height: 33px;
-    background: #f9cf67 ;
+    background: #f9cf67;
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
 }
-.yellow:hover{
+
+.yellow:hover {
     background-color: rgb(255, 255, 255);
     color: #f9cf67;
 }
-#page{
-   text-align: center;
-   margin: 30px 0px;
+
+#page {
+    text-align: center;
+    margin: 30px 0px;
 }
-.run{
+
+.run {
     width: 250px;
     margin: 10px 5px;
     transform: translate(-50%);
     background-size: 1px;
     margin-top: 50px;
     padding: 3ch;
-    background-color: rgb(246, 240, 246);
+    background-color: rgb(242, 246, 247);
     border-radius: 3px;
-    display:inline-block;
+    display: inline-block;
 }
-.run h1{
+
+.run h1 {
     font-size: 22px;
     font-weight: 500;
-    color: rgb(90,48,90);
+    color: rgb(21, 21, 100);
     margin-left: -15px;
     margin-top: 3px;
 }
-.run img{
-    
+
+.run img {
+
     width: 40px;
     height: 40px;
     margin-left: -200px;
 }
-.run p{
+
+.run p {
     text-align: left;
 }
 
 
 
-.ran{
+.ran {
     width: 250px;
     margin: 8px 50px;
     transform: translate(-50%);
     background-size: 1px;
     padding: 30px;
-    background-color: rgb(246, 240, 246);
+    background-color: rgb(242, 246, 247);
     border-radius: 3px;
-    display:inline-block;
+    display: inline-block;
 }
-.ran h1{
+
+.ran h1 {
     font-size: 22px;
     font-weight: 500;
-    color: rgb(90,48,90);
+    color: rgb(21, 21, 100);
     margin-left: -15px;
     margin-top: 3px;
 }
-.ran img{
-    
+
+.ran img {
+
     width: 40px;
     height: 40px;
     margin-left: -200px;
 }
-.ran p{
+
+.ran p {
     text-align: left;
 }
-.rin{
+
+.rin {
     width: 250px;
-    margin-right: -250px;
+    margin-right: -300px;
     transform: translate(-50%);
     background-size: 1px;
     padding: 30px;
-    background-color: rgb(246, 240, 246);
+    background-color: rgb(242, 246, 247);
     border-radius: 3px;
-    display:inline-block;
+    display: inline-block;
 }
-.rin h1{
+
+.rin h1 {
     font-size: 22px;
     font-weight: 500;
-    color: rgb(90,48,90);
+    color: rgb(21, 21, 100);
     margin-left: -15px;
     margin-top: 3px;
 }
-.rin img{
-    
+
+.rin img {
+
     width: 40px;
     height: 40px;
     margin-left: -200px;
 }
-.rin p{
+
+.rin p {
     text-align: left;
 }
+
+#mme {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.top {
+    width: 350px;
+    transform: translate(-4%);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+}
+
+.top img {
+    width: 350px;
+    height: 300px;
+}
+
+.tap {
+    width: 350px;
+    margin: 50px;
+    transform: translate(1%);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+}
+
+.tap img {
+    width: 350px;
+    height: 300px;
+}
+
+
+
+
+.tip {
+    width: 350px;
+    transform: translate(7%);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+
+}
+
+.tip img {
+    width: 350px;
+    height: 300px;
+}
+
+
+.tup {
+    width: 350px;
+    transform: translate(-20%);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+}
+
+.tup img {
+    width: 350px;
+    height: 300px;
+}
+
+.tep {
+    width: 350px;
+    transform: translate(2%);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+}
+
+.tep img {
+    width: 350px;
+    height: 300px;
+}
+
+.tsp {
+    width: 350px;
+    transform: translate(14px);
+    background-size: 1px;
+    background-color: rgb(242, 246, 247);
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0;
+}
+
+.tsp img {
+    width: 350px;
+    height: 300px;
+}
+
+
+
