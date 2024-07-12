@@ -5,6 +5,7 @@
 
  *{
     margin: 0px;
+    padding: 0px;
  }
  /*header navbar*/
  #header{
@@ -210,9 +211,10 @@ span{
     text-align: center;
     margin: 5px 0px;
 }
+
 .carte1{
     width: 250px;
-    margin: 5px;
+    margin:  5px;
     transform: translateX(48%);
     background-size: 1px;
     padding: 0px;
@@ -220,12 +222,13 @@ span{
     border-radius: 10px;
     display: inline-block;
     box-shadow: 0 5px 20px rgb(165, 163, 163);
+    cursor: pointer;
 }
 .carte1 img{
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
+
 .carte1 h3{
     align-items: center;
     text-align: left;
@@ -253,7 +256,6 @@ span{
 .carte2 img{
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
 .carte2 h3{
     align-items: center;
@@ -282,7 +284,6 @@ span{
 .carte3 img{
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
 .carte3 h3{
     align-items: center;
@@ -300,13 +301,9 @@ span{
     color: rgb(243,181,25);
 }
 
-/* fin de la  section case*/
-
-/*la section 3*/
-
 .carte4{
     width: 250px;
-    transform: translateX(50%);
+    transform: translateX(-100px);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 10px;
@@ -316,7 +313,6 @@ span{
 .carte4 img{
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
 .carte4 h3{
     align-items: center;
@@ -333,7 +329,7 @@ span{
 
 .carte5{
     width: 250px;
-    transform: translateX(97%);
+    transform: translateX(5%);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 10px;
@@ -344,7 +340,6 @@ span{
 .carte5 img{
     width: 250px;
     height: 150px;
-    border-radius: 5px;
 }
 .carte5 h3{
     align-items: center;
@@ -362,7 +357,7 @@ span{
 .carte6{
     width: 250px;
     margin-bottom: 50px;
-    transform: translateX(143%);
+    transform: translateX(52%);
     background-size: 1px;
     background-color: rgb(251, 244, 255);
     border-radius: 10px;
@@ -371,8 +366,7 @@ span{
 }
 .carte6 img{
     width: 250px;
-    height: 150px;  
-    border-radius: 5px; 
+    height: 150px;   
 }
 .carte6 h3{
     align-items: center;
@@ -387,10 +381,7 @@ span{
     font-size: 15px;
 }
 .star i{
+    transform: translatex(-600%);
     font-size: 12px;
     color: rgb(243,181,25);
 }
-
-
-
-
