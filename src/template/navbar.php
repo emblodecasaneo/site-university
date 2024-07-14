@@ -1,11 +1,11 @@
 <nav>
-            <img src="../../assets/logo1.png" alt="le log"></img>
+            <a href="index.php?page=home"><img src="../../assets/logo1.png" alt="le log"></img></a>
             <div class="navigation">
                 <ul>
-                    <li><a href="index.php?page=home">Home</a></li>
-                    <li><a href="index.php?page=about">About us</a></li>
-                    <li><a href="index.php?page=course">Courses</a></li>
-                    <li><a href="index.php?page=contact">Contact</a></li>
+                    <li><a href="index.php?page=home" class="<?= ($_GET['page'] ?? 'home') === 'home' ? 'active' : '' ?>">Home</a></li>
+                    <li><a href="index.php?page=course" class="<?= ($_GET['page'] ?? 'course') === 'course' ? 'active' : '' ?>">Courses</a></li>
+                    <li><a href="index.php?page=about" class="<?= ($_GET['page'] ?? 'about') === 'about' ? 'active' : '' ?>">About us</a></li>
+                    <li><a href="index.php?page=contact" class="<?= ($_GET['page'] ?? 'contact') === 'contact' ? 'active' : '' ?>">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+</nav>

@@ -1,33 +1,33 @@
 <section id="home">
     <h2>Enchance Your Future With <span class="box-name">RIIS</span></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officia magnam recusandae, nulla aliquam illo quasi tenetur doloribus at doloremque laboriosam ipsa, tempore qui omnis eum nesciunt quia consequuntur sint?</p>
+    <p class="titre">Welcome to RIIS, where endless opportunities await and futures are crafted. At RIIS, we are dedicated to empowering you to excel, innovate, and achieve your aspirations. Join us as we embark on this transformative journey together. Explore, learn, and grow with RIIS, where your potential knows no bounds</p>
     <div class="btn">
         <a class="blue" href="#">Learn More</a>
         <a class="yellow" href="index.php?page=course">Visit Courses</a>
     </div>
 </section>
 <section id="features">
-            <h1>Awesome Features</h1>
-            <p class="titre">Replenish man have thing gathering lights yielding shall you</p>
-            <div class="fea-base">
-                <div class="fea-box">
-                    <img class="iconbox" src="../assets/graduation-cap-solid.svg"/>
-                    <h3>Schoolarship Faculity</h3>
-                    <p>Loradipisicing elit. labore, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
-                </div>
-                <div class="fea-box">
-                    <img class="iconbox" src="../assets/globe-solid.svg"/>
-                    <h3>Dell Online Course</h3>
-                    <p>Loradipisicing elit. labore, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
-                </div>
-                <div class="fea-box">
-                    <img class="iconbox" src="../assets/book-journal-whills-solid.svg"/>
-                    <h3>Global certification</h3>
-                    <p>Loradipisicing elit. labore, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
-                </div>
-            </div>
-        </section>
+<h1>Awesome Features</h1>
+<p class="titre">Discover the exceptional offerings at RIIS</p>
+<div class="fea-base">
+    <div class="fea-box">
+        <img class="iconbox" src="../assets/graduation-cap-solid.svg"/>
+        <h3>Scholarship Opportunities</h3>
+        <p class="tt">Explore a range of scholarship options designed to support your academic journey. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
+    </div>
+    <div class="fea-box">
+        <img class="iconbox" src="../assets/globe-solid.svg"/>
+        <h3>Online Learning Platform</h3>
+        <p class="tt">Access Dell, our advanced online learning platform offering diverse courses and resources. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
+    </div>
+    <div class="fea-box">
+        <img class="iconbox" src="../assets/book-journal-whills-solid.svg"/>
+        <h3>Global Certifications</h3>
+        <p class="tt">Gain global certifications recognized for their excellence and relevance in today's competitive world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ut sequi quisquam amet. Aut consequatur, odit voluptatibus magnam, quia, delectus maxime cum sapiente iusto ratione doloremque minima!</p>   
+    </div>
+</div>
 
+        </section>
         <section id="registration">
              <div class="reminder">
                 <p>Go 100 Online Courses for Free</p>
@@ -63,8 +63,8 @@
             <div class="expert-box">
                 <div class="profile">
                     <img class="pp" src="../assets/register.jpg" alt="">
-                    <h4>Ema Irnik</h4>
-                    <p>Python & Algorithme Expert</p>
+                    <h4>Pr Emmanuella MESSANGA</h4>
+                    <p>Economic</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">
@@ -73,8 +73,8 @@
                 </div>
                 <div class="profile">
                      <img class="pp" src="../assets/register.jpg" alt="">
-                    <h4>Ema Irnik</h4>
-                    <p>Python & Algorithme Expert</p>
+                    <h4>Dr Ema Irnik</h4>
+                    <p>Ingeinering</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">
@@ -83,8 +83,8 @@
                 </div>
                 <div class="profile">
                     <img class="pp" src="../assets/register.jpg" alt="">
-                    <h4>Ema Irnik</h4>
-                    <p>Python & Algorithme Expert</p>
+                    <h4>Dr EMBOLO BILOA</h4>
+                    <p>Managment</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">

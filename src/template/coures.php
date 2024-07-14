@@ -1,26 +1,27 @@
 <?php
 $courses = [
     [
-        "image" => "../assets/back.jpeg",
+        "image" => "../assets/image4.jpeg",
         "start_date" => "10/10/204",
-        "title" => "Licence cycle",
+        "title" => "INGENIEURIE",
         "reviews" => 2456,
         "cost" => 350000
     ],
     [
-        "image" => "../assets/back.jpeg",
+        "image" => "../assets/image2.jpeg",
         "start_date" => "10/10/204",
-        "title" => "Prepa licence",
+        "title" => "MANAGMENT",
         "reviews" => 24,
         "cost" => 814000
     ],
     [
-        "image" => "../assets/back.jpeg",
+        "image" => "../assets/image3.jpeg",
         "start_date" => "10/10/204",
-        "title" => "JavaScript Beginners Courses",
+        "title" => "ECONOMIE",
         "reviews" => 2456,
         "cost" => 60000
     ],
+    
     // Ajoutez plus de cours ici...
 ];
 ?>
@@ -36,6 +37,7 @@ $courses = [
                 <div class="details">
                     <span class="class-day">Start to <?= $course['start_date'] ?></span>
                     <h4><?= $course['title'] ?></h4>
+                    <div class="str-cost">
                     <div class="start-box">
                         <img class="start" src="../assets/star-solid.svg"/>
                         <img class="start" src="../assets/star-solid.svg"/> 
@@ -43,8 +45,10 @@ $courses = [
                         <img class="start" src="../assets/star-solid.svg"/>
                         <text class="avis">(<?= $course['reviews'] ?> avis)</text>
                     </div>
+                    <a class="subscribe" href="">Subscribe</a>
+                    </div>
                     <div class="cost">
-                        $<?= number_format($course['cost'], 2) ?>
+                        $<?= ($course['cost']) ?>
                     </div>
                 </div>
             </div>
