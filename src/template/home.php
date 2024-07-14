@@ -2,7 +2,7 @@
     <h2>Enchance Your Future With <span class="box-name">RIIS</span></h2>
     <p class="titre">Welcome to RIIS, where endless opportunities await and futures are crafted. At RIIS, we are dedicated to empowering you to excel, innovate, and achieve your aspirations. Join us as we embark on this transformative journey together. Explore, learn, and grow with RIIS, where your potential knows no bounds</p>
     <div class="btn">
-        <a class="blue" href="#">Learn More</a>
+        <a class="blue" href="index.php?page=register">Inscription</a>
         <a class="yellow" href="index.php?page=course">Visit Courses</a>
     </div>
 </section>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="profile">
-                    <img class="pp" src="../assets/register.jpg" alt="">
+                    <img class="pp" src="../../assets/image6.jpeg" alt="">
                     <h4>Dr EMBOLO BILOA</h4>
                     <p>Managment</p>
                     <div class="pro-links">

@@ -29,6 +29,9 @@
         case 'course':
             include('./src/template/coures.php');
             break;
+        case 'register':
+            include('./src/template/register.php');
+            break;
         default:
             include('./src/template/home.php');
             break;
