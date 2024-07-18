@@ -29,3 +29,5 @@ const now = new Date().getTime();
                     document.querySelector(".time").innerHTML = "EXPIRED";
                 }
             }, 1000);
+
+           
