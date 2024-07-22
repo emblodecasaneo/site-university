@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/26eceab4c3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all/.css">
 
 </head>
 
@@ -31,13 +32,15 @@ switch($page){
     case "contact":
         include ("./src/contact.php");
     break;
-    
-
+    case "register":
+        include ("./src/register.php");
+    break;
 }
 ?>
 
 <?php include("./src/footer.php")?>
 
+<script src="./src/index.js"></script>
 
 </body>
 </html>

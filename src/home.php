@@ -4,7 +4,7 @@
             quasi tenetur doloribus at doloremque laboriosam ipsa, tempore qui omnis eum nesciunt quia consequuntur
             sint?</p>
         <div class="btn">
-            <a class="blue" href="index.php?page=contact">Inscription</a>
+            <a class="blue" href="index.php?page=register">Inscription</a>
             <a class="yellow" href="index.php?page=courses">Visit Courses</a>
         </div>
     </section>

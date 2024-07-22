@@ -1,51 +1,45 @@
-<section id="pied-page">
-        <div class="footer">
-            <div>
+<footer>
+            <div class="footer-col">
                 <h3>Top Products</h3>
-                <ul>
-                    <li>Manage Reputations</li>
-                    <li>Power Tools</li>
-                    <li>Marketing Service</li>
-                </ul>
+                <li>Manage Reputations</li>
+                <li>Power Tools</li>
+                <li>Marketing Service</li>
             </div>
-            <div>
+            <div class="footer-col">
                 <h3>Quick Links</h3>
-                <ul>
-                    <li>Jobs</li>
-                    <li>Brands Assets</li>
-                    <li>Inventor Relations</li>
-                    <li>Terms of Service</li>
-                </ul>
+                <li>Jobs</li>
+                <li>Brands Assets</li>
+                <li>Inventor Relations</li>
+                <li>Terms of Service</li>
             </div>
-            <div>
+            <div class="footer-col">
                 <h3>Features</h3>
-                <ul>
-                    <li>Manage Reputations</li>
-                    <li>Power Tools</li>
-                    <li>Manage Website</li>
-                    <li>Marketing Service</li>
-                </ul>
+                <li>Manage Reputations</li>
+                <li>Power Tools</li>
+                <li>Manage Website</li>
+                <li>Marketing Service</li>
             </div>
-            <div>
+            <div class="footer-col">
                 <h3>Resources</h3>
-                <ul>
-                    <li>Guides</li>
-                    <li>Research</li>
-                    <li>Experts</li>
-                    <li>Marketing Service</li>
-                </ul>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
             </div>
-            <div class="newsletter">
+            <div class="footer-col">
                 <h3>Newsletter</h3>
-                <p>You can trust us. we only send promo offers.</p>
-                    <input type="email" placeholder="Your email address">
-                    <button>SUBSCRIBE</button>
+                <p>You can trust us. we only send promo offers,</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your email address">
+                    <a href="#">SUBSCRIBE</a>
+                </div>
             </div>
-        </div>
-        <div class="copyright">
-            <p>Copyright ©2024 All rights reserved | This website is made by FRANCK</p>
-            <img src="../assets/star-solid.svg" alt="">
-            <img src="../assets/star-solid.svg" alt="">
-            <img src="../assets/star-solid.svg" alt="">
-        </div>
-    </section>
+            <div class="copy">
+                <p> Copyright ©2024 All rights reserved | This website is made by EMBLO</p>
+                <div class="pro-links">
+                    <img class="icon-media" src="../assets/face.jpg" alt="">
+                    <img class="icon-media" src="../assets/insta.jpg" alt="">
+                    <img class="icon-media" src="../assets/linkedln.jpg" alt="">
+                </div>
+            </div>
+        </footer>
