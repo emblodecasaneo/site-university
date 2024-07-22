@@ -63,8 +63,8 @@
             <div class="expert-box">
                 <div class="profile">
                     <img class="pp" src="../assets/register.jpg" alt="">
-                    <h4>Pr Emmanuella MESSANGA</h4>
-                    <p>Economic</p>
+                    <h4>Dr CHUISSEU</h4>
+                    <p>Physics</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">
@@ -73,8 +73,8 @@
                 </div>
                 <div class="profile">
                      <img class="pp" src="../assets/register.jpg" alt="">
-                    <h4>Dr Ema Irnik</h4>
-                    <p>Ingeinering</p>
+                    <h4>MR DOUALLA</h4>
+                    <p>Mecanics</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">
@@ -83,8 +83,8 @@
                 </div>
                 <div class="profile">
                     <img class="pp" src="../../assets/image6.jpeg" alt="">
-                    <h4>Dr EMBOLO BILOA</h4>
-                    <p>Managment</p>
+                    <h4>Dr HEUCHEN </h4>
+                    <p>Processus industrie</p>
                     <div class="pro-links">
                         <img class="icon-media" src="../assets/facebook.svg" alt="">
                         <img class="icon-media" src="../assets/linkedin.svg" alt="">

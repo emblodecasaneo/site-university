@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="copy">
-                <p> Copyright ©2024 All rights reserved | This website is made by EMBLO</p>
+                <p> Copyright ©2024 All rights reserved | This website is made by EMMANUELA</p>
                 <div class="pro-links">
                     <img class="icon-media" src="../assets/facebook.svg" alt="">
                     <img class="icon-media" src="../assets/linkedin.svg" alt="">

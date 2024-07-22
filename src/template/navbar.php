@@ -1,5 +1,5 @@
 <nav>
-            <a href="index.php?page=home"><img src="../../assets/logo1.png" alt="le log"></img></a>
+            <a href="index.php?page=home"><img src="../../assets/logo3.png" alt="le log"></img></a>
             <div class="navigation">
                 <ul>
                     <li><a href="index.php?page=home" class="<?= ($_GET['page'] ?? 'home') === 'home' ? 'active' : '' ?>">Home</a></li>

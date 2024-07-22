@@ -5,21 +5,21 @@ $courses = [
         "start_date" => "10/10/204",
         "title" => "INGENIEURIE",
         "reviews" => 2456,
-        "cost" => 350000
+        "cost" => 1500000
     ],
     [
         "image" => "../assets/image2.jpeg",
         "start_date" => "10/10/204",
         "title" => "MANAGMENT",
         "reviews" => 24,
-        "cost" => 814000
+        "cost" => 1500000
     ],
     [
-        "image" => "../assets/image3.jpeg",
+        "image" => "../assets/image5.jpeg",
         "start_date" => "10/10/204",
-        "title" => "ECONOMIE",
+        "title" => "ECONOMIE/MANAGMENT",
         "reviews" => 2456,
-        "cost" => 60000
+        "cost" => 1500000
     ],
     
     // Ajoutez plus de cours ici...
@@ -29,7 +29,7 @@ $btscourses = [
     [
         "image" => "../assets/image4.jpeg",
         "start_date" => "10/10/204",
-        "title" => "INGENIEURIE",
+        "title" => "GRH",
         "reviews" => 2456,
         "cost" => 350000
     ],
@@ -41,16 +41,16 @@ $btscourses = [
         "cost" => 814000
     ],
     [
-        "image" => "../assets/image5.jpeg",
+        "image" => "../assets/image2.jpeg",
         "start_date" => "10/10/204",
-        "title" => "ECONOMIE",
+        "title" => "GENI LOGICIEL",
         "reviews" => 2456,
         "cost" => 60000
     ],
     [
         "image" => "../assets/image6.jpeg",
         "start_date" => "10/10/204",
-        "title" => "ECONOMIE",
+        "title" => "BATIMENT",
         "reviews" => 2456,
         "cost" => 60000
     ],
@@ -61,7 +61,7 @@ $btscourses = [
 
 <section id="course">
     <h1 class="titre-course">PREPA RISS</h1>
-    <p class="titre">02 ans au Cameroun, 03 ans a l'etranger</p>
+    <p class="titre">two years in  Cameroon,three years abroad</p>
     <div class="course-box">
         <?php foreach ($courses as $course): ?>
             <div class="courses">
