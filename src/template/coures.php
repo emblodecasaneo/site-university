@@ -1,14 +1,14 @@
 <?php
 $courses = [
     [
-        "image" => "../assets/image4.jpeg",
+        "image" => "../assets/image9.jpeg",
         "start_date" => "10/10/204",
         "title" => "INGENIEURIE",
         "reviews" => 2456,
         "cost" => 1500000
     ],
     [
-        "image" => "../assets/image2.jpeg",
+        "image" => "../assets/image8.jpeg",
         "start_date" => "10/10/204",
         "title" => "MANAGMENT",
         "reviews" => 24,
@@ -17,7 +17,7 @@ $courses = [
     [
         "image" => "../assets/image5.jpeg",
         "start_date" => "10/10/204",
-        "title" => "ECONOMIE/MANAGMENT",
+        "title" => "ECONOMIE",
         "reviews" => 2456,
         "cost" => 1500000
     ],
@@ -27,32 +27,32 @@ $courses = [
 
 $btscourses = [
     [
-        "image" => "../assets/image4.jpeg",
+        "image" => "../assets/image10.jpeg",
+        "start_date" => "10/10/204",
+        "title" => "GESTIONS ",
+        "reviews" => 2456,
+        "cost" => 500000
+    ],
+    [
+        "image" => "../assets/image11.jpeg",
         "start_date" => "10/10/204",
         "title" => "GRH",
-        "reviews" => 2456,
-        "cost" => 350000
-    ],
-    [
-        "image" => "../assets/image2.jpeg",
-        "start_date" => "10/10/204",
-        "title" => "MANAGMENT",
         "reviews" => 24,
-        "cost" => 814000
+        "cost" => 500000
     ],
     [
         "image" => "../assets/image2.jpeg",
         "start_date" => "10/10/204",
-        "title" => "GENI LOGICIEL",
+        "title" => "GENIE INFORMATIQUE",
         "reviews" => 2456,
-        "cost" => 60000
+        "cost" => 500000
     ],
     [
-        "image" => "../assets/image6.jpeg",
+        "image" => "../assets/image7.jpeg",
         "start_date" => "10/10/204",
-        "title" => "BATIMENT",
+        "title" => "GENIE CIVIL",
         "reviews" => 2456,
-        "cost" => 60000
+        "cost" => 500000
     ],
     
     // Ajoutez plus de cours ici...

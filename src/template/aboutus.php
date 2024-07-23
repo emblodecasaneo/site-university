@@ -5,5 +5,6 @@
 
         <div class="patners">
            <h1>Patners</h1>
+           <?
         </div>
 </section>
